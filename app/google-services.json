@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "809321778065",
+    "firebase_url": "https://wittertainment-516b3.firebaseio.com",
+    "project_id": "wittertainment-516b3",
+    "storage_bucket": "wittertainment-516b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809321778065:android:969e154461707ede",
+        "android_client_info": {
+          "package_name": "uk.jumpingmouse.wittertainment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809321778065-su088dqph1lo09m6pbbbqb15hj5dr684.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uk.jumpingmouse.wittertainment",
+            "certificate_hash": "DCC3F6A876B211470A1D4D1C92249BE1A9AA17F9"
+          }
+        },
+        {
+          "client_id": "809321778065-pohh1dsjojjpgvobqpm6divk39e90q2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwtHbMUDe2XnIUwufLh0IMIpoa8XVp_oc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809321778065-pohh1dsjojjpgvobqpm6divk39e90q2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

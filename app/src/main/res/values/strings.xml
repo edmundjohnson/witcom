@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Wittertainment</string>
+
+    <!-- General -->
+    <string name="invalid_field">One or more fields have an invalid value</string>
+    <string name="save_successful">Saved successfully</string>
+
+    <!-- Add award -->
+    <string name="title_add_award">Add Award</string>
+    <string name="hint_award_date">Date (YYMMDD)</string>
+    <string name="hint_category_id">Category ID (F/T/D)</string>
+    <string name="hint_film_id">Film ID</string>
+    <string name="hint_critic_id">Critic ID</string>
+    <string name="hint_critic_quote">Quote</string>
+    <string name="button_label_save_award">Save Award</string>
+    <string name="button_label_toggle_award_list">Show / Hide Awards</string>
+
+    <!--
+    <string-array name="award_categories">
+        <item>F</item>
+        <item>T</item>
+        <item>D</item>
+    </string-array>
+    -->
+
 </resources>
