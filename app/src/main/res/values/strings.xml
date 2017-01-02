@@ -5,6 +5,13 @@
     <string name="invalid_field">One or more fields have an invalid value</string>
     <string name="save_successful">Saved successfully</string>
 
+    <!-- Add film -->
+    <string name="title_add_film">Add Film</string>
+    <string name="hint_imdb_id">IMDB id</string>
+    <string name="hint_film_title">Title</string>
+    <string name="button_label_save_film">Save Film</string>
+    <string name="button_label_toggle_film_list">Show / Hide Films</string>
+
     <!-- Add award -->
     <string name="title_add_award">Add Award</string>
     <string name="hint_award_date">Date (YYMMDD)</string>
@@ -14,6 +21,13 @@
     <string name="hint_critic_quote">Quote</string>
     <string name="button_label_save_award">Save Award</string>
     <string name="button_label_toggle_award_list">Show / Hide Awards</string>
+
+    <!-- Add critic -->
+    <string name="title_add_critic">Add Critic</string>
+    <string name="hint_critic_name">Name</string>
+    <string name="hint_critic_description">Description</string>
+    <string name="button_label_save_critic">Save Critic</string>
+    <string name="button_label_toggle_critic_list">Show / Hide Critics</string>
 
     <!--
     <string-array name="award_categories">

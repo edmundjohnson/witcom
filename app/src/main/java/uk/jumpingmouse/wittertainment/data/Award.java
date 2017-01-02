@@ -10,13 +10,13 @@ public class Award {
     private static final String CATEGORY_TV = "T";
     private static final String CATEGORY_DVD = "D";
 
-//    private String awardId;
     private String awardDate;
     private String categoryId;
     private String filmId;
     private String criticId;
     private String criticQuote;
 
+    /** Private constructor to prevent instantiation. */
     private Award() {
     }
 
@@ -33,7 +33,6 @@ public class Award {
                  String criticId, String criticQuote) {
         Award award = new Award();
 
-//        award.awardId = awardId;
         award.awardDate = awardDate;
         award.categoryId = categoryId;
         award.filmId = filmId;
@@ -64,14 +63,19 @@ public class Award {
                 && isCriticQuoteValid(criticQuote);
     }
 
+    /**
+     * Returns whether an award date is valid.
+     * @param awardDate the award date
+     * @return true if awardDate is a valid award date, false otherwise
+     */
     private static boolean isAwardDateValid(String awardDate) {
         return awardDate != null
                 && !awardDate.trim().isEmpty();
     }
 
     /**
-     * Returns whether a String is a valid award category id.
-     * @param categoryId the potential category id
+     * Returns whether a category id is valid.
+     * @param categoryId the category id
      * @return true if categoryId is a valid award category id, false otherwise
      */
     private static boolean isCategoryIdValid(String categoryId) {
@@ -81,16 +85,31 @@ public class Award {
                 || categoryId.equals(CATEGORY_DVD));
     }
 
+    /**
+     * Returns whether a film id is valid.
+     * @param filmId the film id
+     * @return true if filmId is a valid film id, false otherwise
+     */
     private static boolean isFilmIdValid(String filmId) {
         return filmId != null
                 && !filmId.trim().isEmpty();
     }
 
+    /**
+     * Returns whether a critic id is valid.
+     * @param criticId the critic id
+     * @return true if criticId is a valid critic id, false otherwise
+     */
     private static boolean isCriticIdValid(String criticId) {
         return criticId != null
                 && !criticId.trim().isEmpty();
     }
 
+    /**
+     * Returns whether a critic quote is valid.
+     * @param criticQuote the critic quote
+     * @return true if criticQuote is a valid critic quote, false otherwise
+     */
     private static boolean isCriticQuoteValid(String criticQuote) {
         return criticQuote != null
                 && !criticQuote.trim().isEmpty();
@@ -98,11 +117,7 @@ public class Award {
 
 
     //---------------------------------------------------------------------
-    // Getters and setters
-
-//    public String getAwardId() {
-//        return awardId;
-//    }
+    // Getters
 
     public String getAwardDate() {
         return awardDate;

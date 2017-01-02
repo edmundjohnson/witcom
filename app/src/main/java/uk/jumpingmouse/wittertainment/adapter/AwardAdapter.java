@@ -28,10 +28,10 @@ public class AwardAdapter extends ArrayAdapter<Award> {
         Award award = getItem(position);
         if (award != null) {
             TextView txtAwardDate = (TextView) convertView.findViewById(R.id.txtAwardDate);
-            TextView txtCategoryId = (TextView) convertView.findViewById(R.id.txtCategoryId);
-            TextView txtFilmId = (TextView) convertView.findViewById(R.id.txtFilmId);
-            TextView txtCriticId = (TextView) convertView.findViewById(R.id.txtCriticId);
-            TextView txtCriticQuote = (TextView) convertView.findViewById(R.id.txtCriticQuote);
+            TextView txtCategoryId = (TextView) convertView.findViewById(R.id.txtAwardCategoryId);
+            TextView txtFilmId = (TextView) convertView.findViewById(R.id.txtAwardFilmId);
+            TextView txtCriticId = (TextView) convertView.findViewById(R.id.txtAwardCriticId);
+            TextView txtCriticQuote = (TextView) convertView.findViewById(R.id.txtAwardCriticQuote);
 
             txtAwardDate.setText(award.getAwardDate());
             txtCategoryId.setText(award.getCategoryId());

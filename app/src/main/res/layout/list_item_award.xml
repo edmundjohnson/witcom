@@ -24,7 +24,7 @@
             tools:text="161223" />
 
         <TextView
-            android:id="@+id/txtCategoryId"
+            android:id="@+id/txtAwardCategoryId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -35,7 +35,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/txtFilmId"
+        android:id="@+id/txtAwardFilmId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -47,14 +47,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/txtCriticId"
+            android:id="@+id/txtAwardCriticId"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             tools:text="MK" />
 
         <TextView
-            android:id="@+id/txtCriticQuote"
+            android:id="@+id/txtAwardCriticQuote"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
