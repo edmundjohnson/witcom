@@ -31,13 +31,13 @@ public class AwardAdapter extends ArrayAdapter<Award> {
             TextView txtCategoryId = (TextView) convertView.findViewById(R.id.txtAwardCategoryId);
             TextView txtFilmId = (TextView) convertView.findViewById(R.id.txtAwardFilmId);
             TextView txtCriticId = (TextView) convertView.findViewById(R.id.txtAwardCriticId);
-            TextView txtCriticQuote = (TextView) convertView.findViewById(R.id.txtAwardCriticQuote);
+            TextView txtCriticReview = (TextView) convertView.findViewById(R.id.txtAwardCriticReview);
 
             txtAwardDate.setText(award.getAwardDate());
             txtCategoryId.setText(award.getCategoryId());
             txtFilmId.setText(award.getFilmId());
             txtCriticId.setText(award.getCriticId());
-            txtCriticQuote.setText(award.getCriticQuote());
+            txtCriticReview.setText(award.getCriticReview());
         }
 
         return convertView;

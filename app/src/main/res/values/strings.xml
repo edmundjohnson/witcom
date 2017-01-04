@@ -1,33 +1,40 @@
 <resources>
     <string name="app_name">Wittertainment</string>
 
+    <!-- Security -->
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_in_ok">Signed in!</string>
+    <string name="sign_in_cancelled">Sign-in cancelled</string>
+
     <!-- General -->
     <string name="invalid_field">One or more fields have an invalid value</string>
     <string name="save_successful">Saved successfully</string>
+    <string name="error_title">Error</string>
+    <string name="error_while_saving">Error while saving: %s</string>
 
     <!-- Add film -->
+    <string name="button_label_show_film">Show Films</string>
     <string name="title_add_film">Add Film</string>
     <string name="hint_imdb_id">IMDB id</string>
     <string name="hint_film_title">Title</string>
     <string name="button_label_save_film">Save Film</string>
-    <string name="button_label_toggle_film_list">Show / Hide Films</string>
 
     <!-- Add award -->
+    <string name="button_label_show_award">Show Awards</string>
     <string name="title_add_award">Add Award</string>
     <string name="hint_award_date">Date (YYMMDD)</string>
     <string name="hint_category_id">Category ID (F/T/D)</string>
     <string name="hint_film_id">Film ID</string>
     <string name="hint_critic_id">Critic ID</string>
-    <string name="hint_critic_quote">Quote</string>
+    <string name="hint_critic_review">Review</string>
     <string name="button_label_save_award">Save Award</string>
-    <string name="button_label_toggle_award_list">Show / Hide Awards</string>
 
     <!-- Add critic -->
+    <string name="button_label_show_critic">Show Critics</string>
     <string name="title_add_critic">Add Critic</string>
     <string name="hint_critic_name">Name</string>
     <string name="hint_critic_description">Description</string>
     <string name="button_label_save_critic">Save Critic</string>
-    <string name="button_label_toggle_critic_list">Show / Hide Critics</string>
 
     <!--
     <string-array name="award_categories">

@@ -14,7 +14,7 @@ public class Award {
     private String categoryId;
     private String filmId;
     private String criticId;
-    private String criticQuote;
+    private String criticReview;
 
     /** Private constructor to prevent instantiation. */
     private Award() {
@@ -26,18 +26,18 @@ public class Award {
      * @param categoryId the award category (e.g. film of the week, DVD of the week)
      * @param filmId the id of the film being given the award
      * @param criticId the critic making the award
-     * @param criticQuote a description of the film made by the critic
-     * @return the new award.
+     * @param criticReview a review of the film made by the critic
+     * @return the new award
      */
     public static Award newInstance(String awardDate, String categoryId, String filmId,
-                 String criticId, String criticQuote) {
+                 String criticId, String criticReview) {
         Award award = new Award();
 
         award.awardDate = awardDate;
         award.categoryId = categoryId;
         award.filmId = filmId;
         award.criticId = criticId;
-        award.criticQuote = criticQuote;
+        award.criticReview = criticReview;
 
         return award;
     }
@@ -51,16 +51,16 @@ public class Award {
      * @param categoryId the potential category id
      * @param filmId the film id
      * @param criticId the critic id
-     * @param criticQuote the critic quote
+     * @param criticReview the critic's review
      * @return true if the parameters are valid award fields, false otherwise
      */
     public static boolean isFieldsValid(String awardDate, String categoryId, String filmId,
-                                        String criticId, String criticQuote) {
+                                        String criticId, String criticReview) {
         return isAwardDateValid(awardDate)
                 && isCategoryIdValid(categoryId)
                 && isFilmIdValid(filmId)
                 && isCriticIdValid(criticId)
-                && isCriticQuoteValid(criticQuote);
+                && isCriticReviewValid(criticReview);
     }
 
     /**
@@ -106,13 +106,13 @@ public class Award {
     }
 
     /**
-     * Returns whether a critic quote is valid.
-     * @param criticQuote the critic quote
-     * @return true if criticQuote is a valid critic quote, false otherwise
+     * Returns whether a critic's review is valid.
+     * @param criticReview the critic's review
+     * @return true if criticReview is a valid critic review, false otherwise
      */
-    private static boolean isCriticQuoteValid(String criticQuote) {
-        return criticQuote != null
-                && !criticQuote.trim().isEmpty();
+    private static boolean isCriticReviewValid(String criticReview) {
+        return criticReview != null
+                && !criticReview.trim().isEmpty();
     }
 
 
@@ -135,8 +135,8 @@ public class Award {
         return criticId;
     }
 
-    public String getCriticQuote() {
-        return criticQuote;
+    public String getCriticReview() {
+        return criticReview;
     }
 
 }
